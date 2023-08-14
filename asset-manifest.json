@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-project-2/static/css/main.673c6891.css",
+    "main.js": "/react-project-2/static/js/main.507618ae.js",
+    "static/js/787.a86796b9.chunk.js": "/react-project-2/static/js/787.a86796b9.chunk.js",
+    "static/media/camara_1.jpg": "/react-project-2/static/media/camara_1.221303a7056742e4eebf.jpg",
+    "static/media/editing_1.jpg": "/react-project-2/static/media/editing_1.8c19985a28ea9ac821f9.jpg",
+    "static/media/camara_2.jpg": "/react-project-2/static/media/camara_2.0a608ee908c65191b1ee.jpg",
+    "static/media/printer_1.jpg": "/react-project-2/static/media/printer_1.69a4832d6e9021230b62.jpg",
+    "static/media/camara.jpg": "/react-project-2/static/media/camara.0ea0a0b273bd8f409de6.jpg",
+    "static/media/passport_2.jpg": "/react-project-2/static/media/passport_2.82e23f85185b02d5a338.jpg",
+    "static/media/printer_2.jpg": "/react-project-2/static/media/printer_2.71ae24870c8bd69dae8f.jpg",
+    "static/media/editing.jpg": "/react-project-2/static/media/editing.60bcf0a1ef0b5065a211.jpg",
+    "static/media/passport_1.jpg": "/react-project-2/static/media/passport_1.43d4594cd4288eac0666.jpg",
+    "static/media/editing_2.jpg": "/react-project-2/static/media/editing_2.9b692fa98d8ee66ab649.jpg",
+    "static/media/passport.jpg": "/react-project-2/static/media/passport.18061ae576282abcd28a.jpg",
+    "static/media/printer.jpg": "/react-project-2/static/media/printer.23ccefe2e6582c0fd0a4.jpg",
+    "index.html": "/react-project-2/index.html",
+    "main.673c6891.css.map": "/react-project-2/static/css/main.673c6891.css.map",
+    "main.507618ae.js.map": "/react-project-2/static/js/main.507618ae.js.map",
+    "787.a86796b9.chunk.js.map": "/react-project-2/static/js/787.a86796b9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.673c6891.css",
+    "static/js/main.507618ae.js"
+  ]
+}
