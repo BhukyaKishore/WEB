@@ -3,7 +3,7 @@ import React from "react";
 export default function Navbar(props) {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-primary bg-opacity-75 bg-primary py-3">
+      <nav className="navbar navbar-expand-lg bg-body-primary bg-opacity-75 bg-primary py-3 text-center">
         <div className="container-fluid">
           <a className="navbar-brand mx-2" href="/">
             <h3>{props.title}</h3>
@@ -26,23 +26,13 @@ export default function Navbar(props) {
                   About Us
                 </a>
               </li>
+              <hr />
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">
+                <a className="nav-link active" aria-current="page" href="#contactus">
                   Contact Us
                 </a>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button className="btn btn-outline-light bg-dark" type="submit">
-                Search
-              </button>
-            </form>
           </div>
         </div>
       </nav>

@@ -1,5 +1,5 @@
 import React from "react";
-import {printer,camara,passport,editing} from "./images"
+import { printer, camara, passport, editing } from "./Images";
 
 export default function Corousel() {
   return (
@@ -17,10 +17,18 @@ export default function Corousel() {
             <img src={printer} className="d-block w-100 size" alt="Imerage 1" />
           </div>
           <div className="carousel-item">
-            <img src={editing} className="d-block w-100 size " alt="Imerage 1" />
+            <img
+              src={editing}
+              className="d-block w-100 size "
+              alt="Imerage 1"
+            />
           </div>
           <div className="carousel-item">
-            <img src={passport} className="d-block w-100 size" alt="Imerage 1" />
+            <img
+              src={passport}
+              className="d-block w-100 size"
+              alt="Imerage 1"
+            />
           </div>
         </div>
         <button

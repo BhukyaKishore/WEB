@@ -1,11 +1,8 @@
 import React from "react";
-import { printer_2, camara_2, editing_2, passport_2 } from "./images";
+import { printer_2, camara_2, editing_2, passport_2 } from "./Images";
+import IconSet from "./IconSet";
 
 export default function Cards() {
-  const changeContentCam = () => {
-    const cam = document.getElementById("camara");
-    cam.innerHTML = `contact us on:+91 7032607238 link ids: jichu  ugfyufeuywe`;
-  };
   return (
     <>
       <div className="row row-cols-1 row-cols-md-2 g-4 px-5 py-5 text-center">
@@ -21,9 +18,7 @@ export default function Cards() {
                 selection of cameras for rent ensures you have the perfect tool
                 for any occasion.
               </p>
-              <button onClick={changeContentCam} className="btn btn-primary">
-                Click Hear
-              </button>
+              <IconSet />
             </div>
           </div>
         </div>
@@ -32,14 +27,14 @@ export default function Cards() {
             <img src={printer_2} className="card-img-top   " alt="..." />
             <div className="card-body">
               <h4 className="card-title">Printing Works</h4>
-              <p className="card-text">
+              <p className="card-text" id="printer">
                 <strong>Printing Works:</strong> Need a reliable printing
                 relatedwork ? Our printer service provides you with access to
                 high-quality printers that cater to your specific requirements
                 and provide you a greate Services.For
                 <strong>Affordable Prices</strong>.
               </p>
-              <button className="btn btn-primary">Click Hear</button>
+              <IconSet />
             </div>
           </div>
         </div>
@@ -48,14 +43,14 @@ export default function Cards() {
             <img src={editing_2} className="card-img-top  " alt="..." />
             <div className="card-body">
               <h4 className="card-title">Professional Photo Editing</h4>
-              <p className="card-text">
+              <p className="card-text" id="editing">
                 <strong>Professional Photo Editing:</strong> Transform your
                 images into masterpieces with our professional photo editing
                 service. Our experienced editors work closely with you to
                 enhance your photos, ensuring they meet your creative vision and
                 professional standards.
               </p>
-              <button className="btn btn-primary">Click Hear</button>
+              <IconSet />
             </div>
           </div>
         </div>
@@ -64,13 +59,13 @@ export default function Cards() {
             <img src={passport_2} className="card-img-top  " alt="..." />
             <div className="card-body">
               <h4 className="card-title">Premium Photocopies</h4>
-              <p className="card-text">
+              <p className="card-text" id="passport">
                 <strong>Premium Photocopies:</strong> Need copies that stand
                 out? Our premium photocopy service delivers exceptional quality
                 and precision. From important documents to marketing materials,
                 we're here to meet your copying needs with finesse.
               </p>
-              <button className="btn btn-primary">Click Hear</button>
+              <IconSet />
             </div>
           </div>
         </div>
